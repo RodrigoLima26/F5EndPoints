@@ -1,3 +1,5 @@
+import { ENV } from '@app/env';
+
 export class ActivityService {
 
     getActivities() {
