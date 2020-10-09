@@ -1,6 +1,6 @@
 {
   "name": "f5endpointstest",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Test for f5 endpoints",
   "main": "index.js",
   "scripts": {
