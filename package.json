@@ -1,8 +1,8 @@
 {
   "name": "f5endpointstest",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Test for f5 endpoints",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
