@@ -3,9 +3,11 @@ import { HttpClient } from '@angular/common/http';
 
 export class ActivityService {
 
+    constructor(public http: HttpClient) {}
+
     getActivities() {
         return new Promise((resolve, reject) => {
-            HttpClient.get(`${ENV.appUrl}ramos-atividade`)
+            this.httpClient.get(`${ENV.appUrl}ramos-atividade`)
                 .subscribe(
                     (data = {data: {}}) => resolve(data),
                            (err) => reject(err)
