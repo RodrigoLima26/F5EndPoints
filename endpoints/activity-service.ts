@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 
 export class ActivityService {
 
-    http = HttpClient;
+    constructor(public http: HttpClient) {}
 
     getActivities() {
         return new Promise((resolve, reject) => {
